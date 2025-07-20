@@ -1,0 +1,139 @@
+/* Reset & Fonts */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #222;
+}
+
+/* Logo & Header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #e3f2fd, #fff);
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Contact Form */
+.contact-card {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+}
+
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-card button:hover {
+  background-color: #0056b3;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+  margin-top: 25px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da851;
+}
